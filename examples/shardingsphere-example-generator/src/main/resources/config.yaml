@@ -29,32 +29,32 @@ modes:
 # supported: local, xa-atomikos, xa-narayana, base-seata
 transactions: 
   - local
-  - xa-atomikos
-  - xa-narayana
-  - xa-bitronix
-  - base-seata
+#  - xa-atomikos
+#  - xa-narayana
+#  - xa-bitronix
+#  - base-seata
 
 # supported: sharding,readwrite-splitting,encrypt,shadow,db-discovery,mask
 features: 
   - sharding
-  - readwrite-splitting
-  - encrypt
-  - shadow
-  - db-discovery
-  - mask
+#  - readwrite-splitting
+#  - encrypt
+#  - shadow
+#  - db-discovery
+#  - mask
 
 # supported：jdbc,spring-boot-starter-jdbc,spring-boot-starter-jpa,spring-boot-starter-mybatis,spring-namespace-jdbc,spring-namespace-jpa,spring-namespace-mybatis
 frameworks:
   - jdbc
   - spring-boot-starter-jdbc
   - spring-boot-starter-jpa
-  - spring-boot-starter-mybatis
-  - spring-namespace-jdbc
-  - spring-namespace-jpa
-  - spring-namespace-mybatis
+#  - spring-boot-starter-mybatis
+#  - spring-namespace-jdbc
+#  - spring-namespace-jpa
+#  - spring-namespace-mybatis
 
 props:
   host: localhost
   port: 3306
   username: root
-  password: 123456
+  password: a123456
